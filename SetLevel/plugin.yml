@@ -1,0 +1,12 @@
+name: SetLevel
+main: me.MartinBorstad.SetLevel.SetLevel
+version: 1.0
+permissions:
+  SetLevel.admin:
+    description: Allows the member to set people's levels.
+    default: false;
+commands:
+  setlevel:
+    description: Sets the level.
+    permission: SetLevel.admin
+    usage: /setlevel [player] [level]
